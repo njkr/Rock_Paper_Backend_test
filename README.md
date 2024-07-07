@@ -1,57 +1,51 @@
-# # Backend Developer Test for Rock-Paper-Scissors Game
+# Jenkins Raj
 
-## Overview
+## Rock Paper Scissors Game
 
-Welcome to the Backend Developer Test for the Rock-Paper-Scissors Game. This test is designed to assess your skills in backend development, including API creation, database interaction, and payment gateway integration. You are expected to complete the tasks by **6/7/2024**.
+A rock-paper-scissors game application using Node.js, MongoDB, and Redis.
 
-## Task 1: API Development
+## Tools Used
 
-### Objective
+Node.js (version 18.x)
+MongoDB
+Redis
 
-Develop a RESTful API for the Rock-Paper-Scissors game to handle game logic, user management, and game sessions.
+## Environment Setup
 
-### Requirements
+Use local instances of Redis and MongoDB.
 
-- Set up a Node.js/Express.js or Django server.
-- Implement endpoints for:
-  - User registration and authentication.
-  - Starting a new game session.
-  - Recording the player's move and determining the outcome against the computer's move.
-  - Fetching game history for a user.
+## Installation
 
-## Task 2: Database Integration
+Clone the repository:
 
-### Objective
+```sh
+git clone <repository-url>
+cd <repository-directory>
+```
 
-Integrate a database to store user information, game sessions, and game history.
+## Install dependencies and run the application:
 
-### Requirements
+```sh
+Copy code
+npm install
+npm run dev
+```
 
-- Use a relational database (e.g., PostgreSQL, MySQL) or a NoSQL database (e.g., MongoDB).
-- Define appropriate models/schemas for users and game sessions.
-- Ensure secure storage of user passwords (e.g., hashing with bcrypt).
+## Default application port:
 
-## Task 3: Payment Gateway Integration
+The app runs on port 3030 by default.
 
-### Objective
+## Testing
 
-Integrate a payment gateway to enable transactions using fiat currency (e.g., PayPal).
+Postman Collection:
+A Postman collection is included in the code. Import this collection into Postman for testing the API endpoints.
 
-### Requirements
+## Detailed Testing Video:
 
-- Set up and configure a payment gateway (e.g., PayPal) to handle deposits and withdrawals.
-- Implement backend endpoints to interact with the payment gateway:
-  - Process payments for game bets.
-  - Handle transaction confirmations and record them in the database.
-  - Fetch transaction history for a user.
+A video detailing the full flow of testing and MongoDB data changes is included.
 
-## Submission Guidelines
+## PayPal Sandbox Payer Credentials
 
-1. **Documentation:**
-   - Ensure your code is well-documented.
-   - Include comments to explain key parts of your code.
-   - Add detailed instructions on how to set up the project and make it work, including installation of dependencies, environment setup, and running the application.
-
-2. **Commit and Pull Request:**
-   - Complete all tasks and commit your code to the repository.
-   - Create a pull request with your final changes before the deadline of **6/7/2024**.
+url: https://sandbox.paypal.com
+email : sb-fdrrd31536198@personal.example.com
+Password: 6fe/6HA-
